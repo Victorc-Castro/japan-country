@@ -12,6 +12,18 @@ body {
   font-variation-settings: "wdth" 100;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #E1624F;
+}
+
 p.headline {
   font-size: 16px;
   color: #E1624F;
@@ -99,11 +111,12 @@ hr.final {
   margin-bottom: 40px;
 }
 
-footer {
-  margin-top: 65px;
-  text-align: center;
+.forte{
+  font-weight: bold;
 }
 
-.forte{
+footer {
+  text-align: center;
+  margin-top: 65px;
   font-weight: bold;
 }
